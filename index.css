@@ -86,7 +86,7 @@ h2 {
   color: #cac8dd;
   /* font-weight: bold; */
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px)and (min-width: 992px)  {
   .card {
     width: 80%;
     max-width: 1440px;
