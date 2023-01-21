@@ -55,12 +55,18 @@ h1 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
 }
+h2 {
+  color: #feffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
 .unique {
   color: #a462cf;
 }
 .innertext {
   font-family: "Lexend Deca", sans-serif;
-  color: #79778f;
+  color: #cac8dd;
   padding: 10px;
   font-weight: 400;
   line-height: 1.5;
@@ -68,18 +74,17 @@ h1 {
 
 .text-cover {
   margin-top: 25px;
-  color: #feffff;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 .nametext {
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 9px;
   padding-top: 5px;
   letter-spacing: 2px;
   /* border: 1px solid red; */
-  color: #79778f;
-  font-weight: bold;
+  color: #cac8dd;
+  /* font-weight: bold; */
 }
 @media screen and (min-width: 600px) {
   .card {
@@ -103,7 +108,7 @@ h1 {
   }
   .content {
     flex: 50%;
-    margin: 60px 60px 40px 50px;
+    margin: 30px 70px 10px 50px;
     /* border: 1px solid red; */
   }
   .rows {
@@ -111,33 +116,45 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     font-size: small;
-    margin-right: 50px;
-    padding-right: 100px;
+    margin-right: 60px;
     /* border: 1px solid red; */
+    padding-right: 50px;
   }
   h1 {
     color: #f6f5f9;
     font-family: "Inter", sans-serif;
     font-weight: 600;
     text-align: left;
-    padding-right: 80px;
+    letter-spacing: 1px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    /* border: 1px solid red; */
   }
   .innertext {
     text-align: left;
-    /* font-weight: normal; */
-    font-size: 12px;
+    font-weight: 200;
     /* padding-right: 150px; */
+    font-family: "Inter", sans-serif;
     line-height: 1.5;
     /* border: 1px solid red; */
     margin-bottom: 30px;
+    margin-right: 50px;
     padding-left: 0;
-    padding-right: 140px;
-    padding-top: 20px;
+    font-size: 13px;
+    padding-right: 70px;
   }
   .pixdiv,
   .overlay {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 0;
+  }
+  h2 {
+    text-align: left;
+    color: #feffff;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
   }
 }
